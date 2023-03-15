@@ -1,0 +1,60 @@
+*{
+    border-radius: 12px;
+    direction: rtl;
+}
+body{
+    background: linear-gradient(#16384c,rgb(47, 50, 95), #2f495f);
+
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+section{
+    background-color: #ffffff;
+    height: 350px;
+    width: 400px;
+    margin: 200px auto 0 auto;
+   position: relative;
+   transition: 1s;
+    
+
+}
+
+section:hover{
+    height: 400px;
+
+
+
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    top: -30px;
+
+
+}
+section:hover img{
+    top: -150px;
+    transition: all 1s;
+    border-radius: 50%;
+    rotate: 720deg;
+}
+.contaner{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    font-family: sans-serif;}
+
+section:hover .contaner{
+    opacity: 1;
+}
+
